@@ -29,7 +29,7 @@ table {
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 10px 0px 10px 0px;
 }
 
 /* For mobile phones: */
@@ -50,6 +50,10 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
+  [class*="col-"] {
+    padding: 15px;
+  }
+
   /* For desktop: */
   .col-1 {
     width: 8.33%;
